@@ -9,14 +9,14 @@ i.close()
 
 #Exercise: 4
 s = open("esercizio_sui_file")
+print(s.read())
+s.close()
 
-
-
-
-
-
-
-
+i = open("esercizio_sui_file", "w")
+i = open("esercizio_sui_file", "r")
+for i in i:
+    copy.write(str(1))
+i.close()
 
 
 
