@@ -12,6 +12,7 @@ s = open("esercizio_sui_file")
 print(s.read())
 s.close()
 
+#Exercixse: 5 
 i = open("esercizio_sui_file", "w")
 i = open("esercizio_sui_file", "r")
 for i in i:
