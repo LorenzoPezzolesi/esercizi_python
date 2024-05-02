@@ -1,9 +1,25 @@
-from flask import Flask, render_template
+#from flask import Flask, render_template
 import json
 
-app = Flask(__name__)
+def get_flashcard_by_id(id: int) -> None:
+    with open("pezzolesi_es_039.json","r") as f:
+        flashcards=json.load(f)
+        for flashcard in flashcards:
+            if flashcard["id"]==id:
+                return flashcard
 
-@app.route("")
-def flashcard(id):
-    return render_template("pezzolesi_es_039.html")
+def prompt_for_id() -> int:
+    id = int(input("Scegli un id da 1 a 3:"))
+    flashcard = get_flashcard_by_id(id)
+    print(flashcard["question"])
+
+if __name__=="__main__":
+    prompt_for_id()
+
+def prompt_for_answer() -> str:
+    id = int(input("Scegli un id da 1 a 3:"))
+
+
+
+
 

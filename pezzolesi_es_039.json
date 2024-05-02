@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "question": "Domanda 1",
-        "answer": "Risposta 1"
+        "question": "Quale è la capitale dell'Emilia Romagna?",
+        "answer": "Bologna"
     },
     {
         "id": 2,
-        "question": "Domanda 2",
-        "answer": "Risposta 2"
+        "question": "Quale è la capitale delle Marche?",
+        "answer": "Ancona"
     },
     {
         "id": 3,
-        "question": "Domanda 3",
-        "answer": "Risposta 3"
+        "question": "Quale è la migliore frazione di San Clemente?",
+        "answer": "Sant'Andrea in Casale"
     }
 ]
